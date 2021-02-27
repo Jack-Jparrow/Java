@@ -3,11 +3,12 @@ import java.io.OutputStreamWriter;
 
 /**
  * 转换输出流
+ * 当字节流中的数据都是字符的时候，使用转换流转为字符流处理效率更高
  *
  * @Author: Jack Jparrow
  * @Date: 2021-02-27 10:10:31
  * @Last Modified by: Jack Jparrow
- * @Last Modified time: 2021-02-27 10:15:12
+ * @Last Modified time: 2021-02-27 10:17:56
  */
 
 public class QZJT_JAVA_107 {
