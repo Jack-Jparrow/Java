@@ -4,14 +4,14 @@
  * @Author: Jack Jparrow
  * @Date: 2021-03-03 15:30:26
  * @Last Modified by: Jack Jparrow
- * @Last Modified time: 2021-03-03 15:44:58
+ * @Last Modified time: 2021-03-04 10:08:43
  */
 
 public class QZJT_JAVA_114 {
 
     public static void main(String[] args) {
         try {
-            Class clazz = Class.forName("Student");// 通过包名.类名的字符串，调用class.forName方法获取指定类的Class实例
+            Class clazz = Class.forName("Student_114");// 通过包名.类名的字符串，调用class.forName方法获取指定类的Class实例
 
             Class superClass = clazz.getSuperclass();// 获取父类
             System.out.println("父类：" + superClass.getName());
@@ -32,7 +32,7 @@ class Person_114 {
     int age;
 }
 
-class Student extends Person_114 implements Move, Study {
+class Student_114 extends Person_114 implements Move, Study {
 
     String school;
 
