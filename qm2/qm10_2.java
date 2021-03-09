@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * @Author: Jack Jparrow 
  * @Date: 2020-12-16 18:02:28 
  * @Last Modified by: Jack Jparrow
- * @Last Modified time: 2020-12-16 18:30:12
+ * @Last Modified time: 2021-03-08 19:07:52
  */
 
 public class qm10_2 {
@@ -37,7 +37,7 @@ public class qm10_2 {
         StringTokenizer st2 = new StringTokenizer(s2);
         String[] sc2 = new String[st2.countTokens()];
         for (int i = 0; st2.hasMoreTokens(); i++) {
-            sc2[i] =st2.nextToken();
+            sc2[i] = st2.nextToken();
         }
 
         int len2 = sc2.length;
